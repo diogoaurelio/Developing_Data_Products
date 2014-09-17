@@ -1,0 +1,46 @@
+#Question 1
+#In the slidify YAML text. Changing the framework from io2012 to shower 
+#does what?
+#It changes the html5 framework thus changing the style of the slides.
+
+
+#Question 2
+#You wrote R code in a slidify document as follows
+```{r}
+fit <- lm(y ~ x1 + x2 + x3)
+summary(fit)
+```
+
+
+#If you want to hide the results of the summary statement (yet still have it 
+	#run) what should you do?
+#Add a results = 'hide' option in the {r} call of the code chunk
+
+#Question 3
+#You wrote R code in a slidify document as follows
+```{r}
+fit <- lm(y ~ x1 + x2 + x3)
+summary(fit)
+```
+#If you want to display the results, but not the actual code, what should you do?
+#Add a echo = FALSE option in the {r} call of the code chunk
+
+#Question 4
+#R studio presentation tool does what?
+
+#F: Creates a presentation that can only be run from within Rstudio.
+#Creates a power point presentation from a generalized markdown format having an extension Rpres.??
+
+
+#Question 5
+#In Rstudio presenter, if you do not want the code to be evaluated, 
+#what option do you need to add to the {r} options?
+#eval = FALSE
+
+
+
+#Question 6
+#When presenting data analysis to a broad audience, 
+#which of the following should be done?
+
+#Explain why each step was necessary.
